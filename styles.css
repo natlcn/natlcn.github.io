@@ -1,7 +1,52 @@
-body header {
-    background-color: blueviolet;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
 }
 
-section {
-    background-color: brown;
+h2{ 
+    color: #DEA6A5;
+}
+
+li {
+    float: left;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: #DEA6A5;
+}
+
+li{ 
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: black;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li a:hover{
+    color: #dbe2dd
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    border: 1px solid #ddd;
 }
