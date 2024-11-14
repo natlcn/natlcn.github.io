@@ -47,12 +47,29 @@ h2{
     text-align: center;
 }
 
-img{
-    border: 1px solid #ddd;
-}
-
 h1{
     text-align: center;
-    color: #DEA6A5;
-    
+    color: #DEA6A5; 
 }
+
+body{
+    background-color: rgb(239, 227, 241);
+}
+
+img {
+    border: 5px solid #393636;
+    border-radius: 10px;
+  }
+
+footer{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(35, 31, 31);
+    color: white;
+    text-align: left;
+}
+  
