@@ -5,10 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="/styles.css">
+    <script src="./main.js"></script>  
     <style> 
-        .gallery { color: rgb(4, 5, 5); text-align:center;  padding-bottom: 30px;}
-        .desc { text-indent: 10px;}
-        .video { text-align: center;}
+        .gallery { color: rgb(4, 5, 5); 
+            text-align:center;  
+            padding-bottom: 30px;
+        }
+
+        .gallery img {
+            width: 500px;
+            height: 400px;
+            transition: transform 0.3s ease; /* Smooth zoom transition */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1); /* Zoom in on hover */
+        }
+
+        
     </style>
 
 </head>
@@ -42,8 +56,9 @@
         <hr>
     </div>
 
+
     <footer>
-        <p2> Nathalie Licuanan Portfolio @2024</p2>
+        <p2> Nathalie Licuanan Portfolio @2024 </p2>
     </footer>
 
 </body>
